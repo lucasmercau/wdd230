@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Diphylleia&family=Exo:wght@500&family=Fjalla+One&display=swap');
+body {
+    margin: 0 auto;
+    font-family:Diphylleia, Helvetica, sans-serif;
+    /* min-width: 375px; */
+}
+header {
+    background-color: #1D4D72;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 140px;
+}
+header h1 {
+    display: inline;
+}
+header img {
+    width: 80px;  
+    margin: 0 30px;
+    box-shadow: 0px 1px 20px 4px #000000;
+    border-radius: 10px;  
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 25px;
+}
+nav a {
+    padding: 10px;
+}
+nav a:link, nav a:visited {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+}
+nav a:hover {
+    background-color: gray;
+}
+  
+nav  a:link:active, nav a:visited:active {
+    color: white;
+}
+.nav-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+.active {
+    font-weight: bold;
+    background-color: #643219;
+}
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+main h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+section {
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+section:nth-last-of-type(2) {
+    margin-top: 20px;
+}
+section h3 {
+    background-color: #1D4D72;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
+ul {
+    list-style: none;
+}
+
+ul a:link, a:visited {
+    color: blue;
+    text-decoration: underline;
+    cursor: auto;
+}
+  
+ul  a:link:active, a:visited:active {
+    color: blue;
+}
+ul a:hover {
+    font-weight: bold;
+}
+.center {
+    text-align: center;
+}
+footer {
+    background-color: #1D4D72;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+footer p:nth-of-type(1) {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 0; 
+    flex-direction: column
+}
+#flag {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+}
+#lastModified {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 25px;
+    color: #F1F716;
+}
+.section-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}

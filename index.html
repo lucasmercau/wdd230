@@ -4,11 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lucas Mercau - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development I - Is the home page and the course assignment portal created by Lucas Mercau.">
+    <meta name="author" content="Lucas Mercau">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
 </head>
 
 <body>
-
+    <header>
+        <img src="images/profilepicture.png" alt="Profile Picture of Lucas Mercau">
+        <h1>Lucas Mercau</h1>
+    </header>
+    <nav>
+        <a href="" class="active nav-item">Home</a>
+        <a href="" class="nav-item">Chamber</a>
+        <a href="" class="nav-item">Site Plan</a>
+        <a href="" class="nav-item">Form</a>
+    </nav>
+    <main>
+        <h2>WDD 230: Web Frontend Development</h2>
+        <hr>
+        <div class="section-grid">
+            <section class="card">
+                <h3 class="center">Learning Activities</h3>
+                <ul>
+                    <li>Week 01: <a href="week01/holygrail.html">Layout</a> | <a href="week01/media-query.html">Media Query</a> | <a href="https://codepen.io/lucasmercau/pen/jOdqpqe">JS Pen</a></li>
+                    <li>Week 02:<a href=""></a><a href=""></a><a href=""></a></li>
+                    <li>Week 03:<a href=""></a><a href=""></a><a href=""></a></li>
+                    <li>Week 04:<a href=""></a><a href=""></a><a href=""></a></li>
+                    <li>Week 05:<a href=""></a><a href=""></a><a href=""></a></li>
+                    <li>Week 06:<a href=""></a><a href=""></a><a href=""></a></li>                    
+                </ul>
+            </section>
+            <section class="card center">
+                <h3>Information</h3>
+                <p class="center">City, Country</p>
+                <p class="center">Weather</p>
+                <p class="center">Page Visits</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p><span>&copy;<span id="currentYear"></span></span> &#127817; Lucas Mercau &#127817;<span> Argentina </span> <img id=flag src="images/flag.png" alt="flag of Argentina"></p>
+        <p id="lastModified">p</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
 </body>
 
 </html>
