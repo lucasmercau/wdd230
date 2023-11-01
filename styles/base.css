@@ -40,7 +40,7 @@ nav a:link, nav a:visited {
     cursor: auto;
 }
 nav a:hover {
-    background-color: gray;
+    background-color: #595959;
 }
   
 nav  a:link:active, nav a:visited:active {
