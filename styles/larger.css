@@ -1,12 +1,23 @@
 @media screen and (min-width: 720px) {
     body {
+        position: relative;
         max-width: 1600px;
     }
 
-    nav {
-        justify-content: space-around;
-        flex-direction: row;
-    }
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+        margin: 0;
+	}
+
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+
     main h2 {
         text-align: left;
     }
