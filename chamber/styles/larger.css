@@ -1,0 +1,85 @@
+@media screen and (min-width: 720px) {
+    body {
+        position: relative;
+        max-width: 1600px;
+        align-items: center;
+    }
+
+    #menu {
+        display: none; /* hide hamburger button */
+    }
+    header {
+        border-bottom: 0;
+    }
+    header br {
+        display: none;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .navigation {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    main {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    main h2 {
+        text-align: left;
+    }
+
+    .section-grid {
+        display: grid;
+        grid-template-columns: 1fr 280px;
+        grid-gap: 1.2rem;
+    }
+    section {
+        box-shadow: 0px 0px 9px 0px #000000;
+        border-radius: 5px;
+        border: 0;
+        padding-bottom: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        display: inline;
+    }
+    section:nth-of-type(1)
+    {
+        grid-column: 1/2;
+    }
+    section h3 {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    .adv-grid {
+        margin-top: 30px;
+        flex-direction: row;
+    }
+    .adv-grid div {
+        width: 100%;
+    }
+    .join {
+        font-size: 28px;
+    }
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    footer hr {
+        display: block;
+    }
+    footer br {
+        display: none;
+    }
+    .social {
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+    }
+}
