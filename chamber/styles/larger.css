@@ -85,4 +85,7 @@
         flex-direction: row;
         margin-right: 20px;
     }
+    .opposite {
+        display:block;
+    }
 }
