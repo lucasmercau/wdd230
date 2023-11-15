@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Diphylleia&family=Exo:wght@500&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Bebas+Neue&family=Crimson+Text:wght@600&family=Diphylleia&family=Exo:wght@500&family=Fjalla+One&family=Great+Vibes&family=Lora&family=Montserrat&family=Noto+Serif&family=Poppins&display=swap');
 body {
     margin: 0 auto;
     font-family:Diphylleia, Helvetica, sans-serif;
@@ -131,6 +131,34 @@ main {
     padding-bottom: 18px;
     padding-top: 1px;
     background-color: white;
+}
+.hero {
+    position: relative;
+}
+picture img {
+    width: 100%;
+}
+
+.herolabel {
+	position: absolute;
+	top: 30px;
+	left: 50%;
+    transform: translateX(-50%);
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+	/* Buenas */
+}
+
+.herolabel p {
+	margin: 0;
+    text-align: center;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+	font-family:"Great Vibes", serif;
 }
 main h2 {
     text-align: center;
