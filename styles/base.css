@@ -200,6 +200,9 @@ ul.homework a:hover {
 .center {
     text-align: center;
 }
+iframe {
+    width: 100%;
+}
 footer {
     background-color: #1D4D72;
     color: white;
@@ -220,6 +223,7 @@ footer p:nth-of-type(1) {
     margin-top: 10px;
     margin-bottom: 10px;
     height: 35px;
+    width: 60.27px;
 }
 #lastModified {
     margin-top: 0;
