@@ -1,7 +1,7 @@
 @media screen and (min-width: 720px) {
     body {
         position: relative;
-        max-width: 1600px;
+        max-width: 960px;
     }
 
     #menu {
@@ -23,15 +23,17 @@
         width: 90%;
     }
     .herolabel p {
-        font-size: 4vw;
+        font-size: clamp(1px, 4vw, 40px);
     }
     .herolabel {
-        top: 4vw;
+        top: clamp(1px, 4vw, 40px);
     }
     main h2 {
         text-align: left;
     }
-
+    ul.homework {
+        padding-left: 40px;
+    }
     .section-grid {
         display: grid;
         grid-template-columns: 1fr 280px;

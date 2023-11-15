@@ -148,8 +148,7 @@ picture img {
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
 	box-shadow: 0 0 3rem #fff;
-	opacity: 0.75;
-	/* Buenas */
+	opacity: 0.75;	
 }
 
 .herolabel p {
@@ -159,6 +158,7 @@ picture img {
 	font-weight: 700;
 	font-size: 2rem;
 	font-family:"Great Vibes", serif;
+    min-width: 165px;
 }
 main h2 {
     text-align: center;
@@ -190,6 +190,9 @@ ul a:link, a:visited {
   
 ul  a:link:active, a:visited:active {
     color: blue;
+}
+ul.homework {
+    padding-left: 20px;
 }
 ul.homework a:hover {
     font-weight: bold;
