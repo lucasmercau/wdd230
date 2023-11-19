@@ -115,10 +115,10 @@
     }
 
     #discover-img img:hover {
+        
         transition: transform .5s;
         opacity: .7;
-        transform: scale(0.95);
-        rotate: .01turn;
+        transform: scale(0.95) rotate(.01turn);
         filter: saturate(200%);
     }
 
