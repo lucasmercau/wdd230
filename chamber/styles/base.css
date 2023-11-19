@@ -256,3 +256,26 @@ hr {
 .opposite {
     display: none;
 }
+
+/* Discover Page new CSS */
+#discover-header {
+    background-color: #025AA1;
+    border-bottom: 0px;
+}
+.discover-nav {
+    border-bottom: 1px solid black;
+}
+#discover-main {
+    padding-bottom: 10px;
+}
+
+#discover-img img {
+    width: 100%;
+    height: auto;
+}
+.discover-section h3{
+    text-align: center;
+}
+.discover-section br.appear {
+    display: none;
+}
