@@ -1,0 +1,93 @@
+:root {
+    --background-input: rgba(0, 0, 0, 0.1);
+    --required-wrong: red solid 6px;
+    --required-right: green solid 6px;
+    --kind-of-blue: #445ba9;
+    --kind-of-green: #216613;
+    --gray: #555;
+}
+
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid var(--kind-of-blue);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: var(--kind-of-blue); 
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: var(--kind-of-green);
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--gray);
+    width: 100%;
+    max-width: 20rem;
+    background-color: var(--background-input);
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: var(--gray);
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: var(--kind-of-green);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: var(--required-wrong);
+}
+
+form label.top input:required:valid {
+    border-left: var(--required-right);
+}
+
+input[type=range] {
+	margin: 1rem;
+	padding: 0.5em;
+}
+
+
+#r {
+	width: 180px;
+	margin-bottom: 0;
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 25px;
+	width: 200px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
