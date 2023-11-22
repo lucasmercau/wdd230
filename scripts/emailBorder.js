@@ -16,11 +16,12 @@ document.getElementById('email').addEventListener('input', function () {
         });
     } else {
         emailBorder.style.borderLeft = "red solid 6px";
-    
         myForm.method = "";
         myForm.action = "";
         myForm.addEventListener("submit", function (event) {
             // Prevent the default form submission behavior (page reload)
+            emailBorder.value = "";
+            emailBorder.focus();
             event.preventDefault();
         });
     
