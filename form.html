@@ -31,8 +31,7 @@
         </ul>
     </nav>
     <main>
-        <form method="get" action="record.html">
-            
+        <form method="get" action="record.html" id="myForm">
             <fieldset>
                 
                 <label class="top">Username<input type="text" id="username" name="username" required></label>
@@ -40,7 +39,9 @@
                 <label class="top">Password - 8 Character Minimum<input type="password" id="keyphrase" name="password" pattern="[a-zA-Z0-9]{8,}" required></label>
                 <label class="top">Password Confirmation<input type="password" id="keyphrase2" name="password-c" pattern="[a-zA-Z0-9]{8,}" required></label>
                 
-                <label class="top">Email<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+                <label class="top">Email<input type="email" id="email" name="email" required  title="Please enter a valid email address"></label>
+                <span id="email-error" style="color: red;"></span>
+                <br>
                 <label for="r">Page Rating</label>
                 <div id="rangevalue">1</div>
                 <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues">
@@ -67,9 +68,11 @@
         <p><span>&copy;<span id="currentYear"></span></span> &#127817; Lucas Mercau &#127817;<span> Argentina </span> <img id=flag src="images/flag.webp" alt="flag of Argentina" loading="lazy" width="508" height="295"></p>
         <p id="lastModified">p</p>
     </footer>
+    <script src="scripts/emailBorder.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/mode2.js"></script>
     <script src="scripts/password.js"></script>
+    
 </body>
 </html>
