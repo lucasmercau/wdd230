@@ -39,7 +39,8 @@
                 <label class="top">Password - 8 Character Minimum<input type="password" id="keyphrase" name="password" pattern="[a-zA-Z0-9]{8,}" required></label>
                 <label class="top">Password Confirmation<input type="password" id="keyphrase2" name="password-c" pattern="[a-zA-Z0-9]{8,}" required></label>
                 
-                <label class="top">Email<input type="email" id="email" name="email" title="Please enter a valid email address" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
+                <label class="top">Email<input type="text" id="email" name="email" title="Please enter a valid email address" pattern="[\-._%+a-zA-Z0-9]{1,}@byui\.edu$"
+                    required></label>
                 <span id="email-error" style="color: red;"></span>
                 <br>
                 <label for="r">Page Rating</label>
@@ -68,7 +69,6 @@
         <p><span>&copy;<span id="currentYear"></span></span> &#127817; Lucas Mercau &#127817;<span> Argentina </span> <img id=flag src="images/flag.webp" alt="flag of Argentina" loading="lazy" width="508" height="295"></p>
         <p id="lastModified">p</p>
     </footer>
-    <script src="scripts/emailBorder.js"></script>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/mode2.js"></script>
