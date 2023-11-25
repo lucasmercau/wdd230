@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The London Chamber of Commerce</title>
+    <title>The London Chamber of Commerce - Join Page</title>
     <meta name="author" content="Lucas Mercau">
     <meta name="description" content="The London Chamber Join Page">
     <link href="styles/normalize.css" rel="stylesheet">
@@ -39,7 +39,7 @@
     <main class="main-join">
         <div class="space-form">
             <div id="form-div">
-                <form method="get"  action="thankyou.html#end-page">
+                <form method="get"  action="thankyou.html">
                     <fieldset style="background-color: aliceblue;">
                         <legend><h2 style="margin-top: 0;">Personal Data</h2></legend>
                         <label class="top">First Name: <input type="text" name="fname" id="fname" required></label>
@@ -59,7 +59,7 @@
                         <label class="sbs"><input type="radio" name="membership" value="silver" onclick="silver()"> Silver Membership</label>
                         <label class="sbs"><input type="radio" name="membership" value="gold" onclick="gold()"> Gold Membership</label>
 
-                        <label class="top">Description: <input type="text" name="description" id="description"></label>
+                        <label class="top">Description: <textarea id="description" name="description" style="display: block;width: 16rem;"></textarea></label>
                         <input type="hidden" name="timestamp" id="timestamp">
                     </fieldset>
 
