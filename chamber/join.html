@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The London Chamber of Commerce</title>
+    <meta name="author" content="Lucas Mercau">
+    <meta name="description" content="The London Chamber Join Page">
+    <link href="styles/normalize.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/larger.css" rel="stylesheet">
+    <link rel="icon" href="london_favicon.ico">
+    <meta property="og:title" content="The London Chamber of Commerce - Join Page">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.telegraph.co.uk/content/dam/travel/2022/05/19/TELEMMGLPICT000296533169_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?imwidth=680">
+    <meta property="og:url" content="https://lucasmercau.github.io/wdd230/chamber/join.html">
+    <meta property="og:description" content="Your digital compass for navigating the diverse currents of London's business and cultural spheres and fostering connections.">
+</head>
+<body>
+    <header>
+        <img src="images/logo-london.webp" alt="logo of the chamber">
+        <h1>The London <br>Chamber<br class="appear"><span style="font-size: 18px">Chamber of Commerce</span></h1>     
+    </header>
+    <nav>
+        <button id="menu" title="Display/Hide Menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <div id="hero">    
+        <img id="hero-box" src="images/city_of_london.jpg" alt="City of London">
+        <div class="button-box">
+                <a href="" class="join">Join The Chamber</a>
+        </div>    
+    </div>
+    <main class="main-join">
+        <div class="space-form">
+            <div id="form-div">
+                <form method="get"  action="thankyou.html#end-page">
+                    <fieldset style="background-color: aliceblue;">
+                        <legend><h2 style="margin-top: 0;">Personal Data</h2></legend>
+                        <label class="top">First Name: <input type="text" name="fname" id="fname" required></label>
+                        <label class="top">Last Name: <input type="text" name="lname" id="lname" required></label>
+                        <label class="top">Position: <input type="text" name="position" id="position" pattern="[a-zA-Z\- ]{7,}"></label>
+                        <label class="top">Email: <input type="email" name="email" id="email" placeholder="example@gmail.com" required></label>
+                        <label class="top">Phone: <input type="tel" name="phone" id="phone" required></label>
+                        
+                    </fieldset>
+                    <fieldset style="background-color: aliceblue;">
+                        <legend><h2 style="margin-top: 0;">Establishment Info</h2></legend>
+                        <div></div>
+                        <label class="top">Business/Organization Name: <input type="text" name="oname" id="oname" required></label>
+                        <div>Membership Level</div>
+                        <label class="sbs"><input type="radio" name="membership" value="np" onclick="np()"> NP Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="bronze" onclick="bronze()"> Bronze Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="silver" onclick="silver()"> Silver Membership</label>
+                        <label class="sbs"><input type="radio" name="membership" value="gold" onclick="gold()"> Gold Membership</label>
+
+                        <label class="top">Description: <input type="text" name="description" id="description"></label>
+                        <input type="hidden" name="timestamp" id="timestamp">
+                    </fieldset>
+
+                    <input type="submit" value="Join The Chamber" class="submitBtn">
+                </form>
+            </div>
+            <br>
+        </div>
+        <div id="space-benefits">
+            <div id="benefits-div">
+                <h2 style="margin-top: 0;" id="benefits-title">NP Membership</h2>
+                <p id="b1">Benefit special events</p>
+                <p id="b2">Benefit training</p>
+                <p id="b3">Benefit advertising</p>
+                <p id="b4">Benefit advertising</p>
+                <p id="b5">Benefit advertising</p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.webp" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.webp" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.webp" alt="instagram icon">
+            </a>
+        </div>
+        <p>The London Chamber <br><span>&copy;2023 - Ubication: </span><br>14 Bonhill Street 📍 <br class="appear"><span><br class="opposite">+(020) 7946-0428 | info@tlchamber.com</span></p>
+        <hr>
+        <p>| Lucas Mercau | WDD 230 Project | <br><span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/membershipForm.js"></script>
+</body>
+</html>
