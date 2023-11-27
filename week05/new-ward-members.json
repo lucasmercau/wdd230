@@ -1,0 +1,28 @@
+{
+    "familyName" : "Johnson",
+    "moved" : "2016-07-27",
+    "numberOfRecords" : 4,
+    "visited" : false,
+    "members" : [
+        {
+            "name" : "Matt Johnson",
+            "gender" : "M",
+            "birthdate" : "1989-04-22"
+        },
+        {
+            "name": "Jane Smith",
+            "gender": "F",
+            "birthdate": "1992-08-20"
+        },
+        {
+            "name": "David Johnson",
+            "gender": "M",
+            "birthdate": "2011-06-10"
+        },
+        {
+            "name": "Emily Johnson",
+            "gender": "F",
+            "birthdate": "2015-11-02"
+        }
+    ]
+}
