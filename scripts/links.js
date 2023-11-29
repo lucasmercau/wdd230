@@ -1,5 +1,5 @@
 const baseURL = "https://lucasmercau.github.io/wdd230/";
-const linksURL = "https://lucasmercau.github.io/wdd230/links.json";
+const linksURL = "https://lucasmercau.github.io/wdd230/data/links.json";
 const ul = document.querySelector(".homework");
 
 async function getLinks() {
