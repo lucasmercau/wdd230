@@ -478,3 +478,8 @@ section.directory-section {
     box-shadow: 0px 0px 0px 0px #000000;
 }
 
+#directory-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
