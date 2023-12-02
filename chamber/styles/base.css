@@ -484,3 +484,6 @@ section.directory-section {
     text-align: center;
     color: #025AA1;
 }
+#show-h2 {
+    display: none;
+}
