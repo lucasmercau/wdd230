@@ -33,6 +33,7 @@
     main {
         padding-left: 10%;
         padding-right: 10%;
+        padding-top: 10px;
     }
     main h2 {
         text-align: left;
@@ -165,6 +166,43 @@
 
     h2#benefits-title {
         text-align: center;
+    }
+
+    #b1::before {
+        content: var(--content, "⬅️");
+    }
+    #b2::before {
+        content: var(--content, "⬅️");
+    }
+    #b3::before {
+        content: var(--content, "⬅️");
+    }
+    #b4::before {
+        content: var(--content, "⬅️");
+    }
+    #b5::before {
+        content: var(--content, "⬅️");
+    }
+
+    .list section.directory-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 0;
+        padding: 0.25rem;
+    }
+    .list section.directory-section p {
+        padding: 10px;
+    }
+    .list section.directory-section h4 {
+        padding: 10px;
+    }
+    .list section.directory-section a {
+        padding: 10px;
+    }
+    .grid section {
+        text-align: center;
+        min-height: 190px;
     }
 }
 

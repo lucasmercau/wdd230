@@ -1,0 +1,60 @@
+{
+    "members" : [
+        {
+            "name" : "Haysmacintyre", 
+            "address" : "10 Queen St Pl, London EC4R 1AG", 
+            "phone" : "+44 (0)20 7969 5500", 
+            "url" : "https://haysmacintyre.com/", 
+            "icon" : "images/logo-haysmacintyre.png", 
+            "memblevel" : "Gold"
+        },
+        {
+            "name" : "The British Museum", 
+            "address" : "Great Russell St London WC1B 3DG", 
+            "phone" : "+44 (0)20 7323 8000", 
+            "url" : "https://www.britishmuseum.org/", 
+            "icon" : "images/logo-british-m.png", 
+            "memblevel" : "Silver"
+        },
+        {
+            "name" : "Goodstone", 
+            "address" : "Yalding House, 156 Great Portland St", 
+            "phone" : "+44 (0)20 4537 7300", 
+            "url" : "https://www.goodstoneliving.com/", 
+            "icon" : "images/logo-goodstone.png", 
+            "memblevel" : "NP"
+        },
+        {
+            "name" : "Menzies", 
+            "address" : "12 Tavistock Square, London WC1H 9BQ", 
+            "phone" : "+44 (0)20 7387 5868", 
+            "url" : "https://www.menzies.co.uk/", 
+            "icon" : "images/logo-menzies.png", 
+            "memblevel" : "Bronze"
+        },
+        {
+            "name" : "Solar Solutions", 
+            "address" : "7, Victoria Station, London SW1V 1PZ", 
+            "phone" : "+44 (0)20 7233 6005", 
+            "url" : "https://www.solarsolutions.co.uk/", 
+            "icon" : "images/logo-solarsolutions.png", 
+            "memblevel" : "Silver"
+        },
+        {
+            "name" : "Thames Freeport", 
+            "address" : "1 St Katharine's Way, London E1W 1UN", 
+            "phone" : "+44 (0)20 3695 7895", 
+            "url" : "https://thamesfreeport.com/", 
+            "icon" : "images/logo-thames.png", 
+            "memblevel" : "Gold"
+        },
+        {
+            "name" : "London Symphony Orchesta", 
+            "address" : "Barbican Centre, Silk St, London EC2Y 8DS", 
+            "phone" : "+44 (0)20 7870 2500", 
+            "url" : "https://www.lso.co.uk/", 
+            "icon" : "images/logo-lso.png", 
+            "memblevel" : "Silver"
+        }
+    ]
+}

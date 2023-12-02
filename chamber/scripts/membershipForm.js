@@ -7,6 +7,7 @@ const benefit2 = document.getElementById("b2");
 const benefit3 = document.getElementById("b3");
 const benefit4 = document.getElementById("b4");
 const benefit5 = document.getElementById("b5");
+spaceForm.classList = "benefits";
 
 timestamp.value = new Date().toISOString(); 
 
@@ -21,6 +22,12 @@ function np()
     benefit3.textContent = "🏆 Monthly newsletter subscription.";
     benefit4.textContent = "🏆 Recognition as a non-profit supporter on the chamber's website.";
     benefit5.textContent = "";
+
+    benefit1.style.setProperty('--content', '""');
+    benefit2.style.setProperty('--content', '""');
+    benefit3.style.setProperty('--content', '""');
+    benefit4.style.setProperty('--content', '""');
+    benefit5.style.setProperty('--content', '""');
 }
 
 function bronze()
@@ -34,6 +41,12 @@ function bronze()
     benefit3.textContent = "🏆 One complimentary ticket to an annual chamber event.";
     benefit4.textContent = "🏆 Access to exclusive training webinars and workshops.";
     benefit5.textContent = "🏆 Social media shout-out on the chamber's platforms.";
+
+    benefit1.style.setProperty('--content', '""');
+    benefit2.style.setProperty('--content', '""');
+    benefit3.style.setProperty('--content', '""');
+    benefit4.style.setProperty('--content', '""');
+    benefit5.style.setProperty('--content', '""');
 }
 
 function silver()
@@ -47,6 +60,12 @@ function silver()
     benefit3.textContent = "🏆 Two complimentary tickets to an annual chamber event.";
     benefit4.textContent = "🏆 Priority access to sponsor chamber-hosted events.";
     benefit5.textContent = "🏆 Discounted rates on advertising space in the chamber's newsletter.";
+
+    benefit1.style.setProperty('--content', '""');
+    benefit2.style.setProperty('--content', '""');
+    benefit3.style.setProperty('--content', '""');
+    benefit4.style.setProperty('--content', '""');
+    benefit5.style.setProperty('--content', '""');
 }
 
 function gold()
@@ -60,5 +79,11 @@ function gold()
     benefit3.textContent = "🏆 Three complimentary tickets to an annual chamber event.";
     benefit4.textContent = "🏆 Highest priority for sponsorship opportunities at chamber events.";
     benefit5.textContent = "🏆 Dedicated chamber representative for personalized assistance.";
+
+    benefit1.style.setProperty('--content', '""');
+    benefit2.style.setProperty('--content', '""');
+    benefit3.style.setProperty('--content', '""');
+    benefit4.style.setProperty('--content', '""');
+    benefit5.style.setProperty('--content', '""');
 }
 

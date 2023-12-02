@@ -174,7 +174,7 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 50px;
-    padding-top: 10px;
+    padding-top: 25px;
     background-color: var(--nav-hover-background-color);
 }
 main h2 {
@@ -191,9 +191,7 @@ section {
     color: var(--headline-color-on-white);
     margin-bottom: 20px;
 }
-section:nth-last-of-type(2) {
-    margin-top: 20px;
-}
+
 section h3 {
     text-align: left;
     color: var(--headline-color-on-white);
@@ -340,11 +338,26 @@ form label.top input:required:valid {
 
 #benefits-div {
     color: #025AA1;
-    display: none;
     background-color: aliceblue; 
     padding: 20px; 
     border-radius: 10px; 
     text-align: center;
+}
+
+#b1::before {
+    content: var(--content, "⬆️");
+}
+#b2::before {
+    content: var(--content, "⬆️");
+}
+#b3::before {
+    content: var(--content, "⬆️");
+}
+#b4::before {
+    content: var(--content, "⬆️");
+}
+#b5::before {
+    content: var(--content, "⬆️");
 }
 
 #form-div {
@@ -356,3 +369,112 @@ form label.top input:required:valid {
 #benefits-div p:last-child {
     margin-bottom: 0;
 }
+
+/* directory */
+
+.menu-gl {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+	text-align: center;
+}
+
+.menu-gl button {
+	padding: 1rem;
+	font-weight: 700;
+    background-color: #fbfbfb;
+}
+
+section.directory-section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #eee;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(296px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.grid section {
+	text-align: center;
+}
+
+.grid section.directory-section > * {
+	margin: 0.1rem;
+}
+
+.grid img.directory-img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.grid section.directory-section h4.title {
+	display: none;
+}
+
+.grid h3 {
+	font-family: "Caveat", cursive;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section.directory-section {
+	display: grid;
+	grid-template-rows: 1.5fr 1fr 1fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+    text-align: left;
+}
+
+.list section.directory-section > * {
+	margin: 0 1rem;
+}
+
+.list section.directory-section img {
+	display: none; /* smaller viewports only */
+}
+
+.list section.directory-section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.list section.directory-section:nth-child(even) {
+	background-color: #fbfbfb;
+}
+
+section.directory-section h3 {
+	font-size: 1.5rem;
+}
+
+section.directory-section p {
+	font-weight: 600;
+	font-size: smaller;
+}
+
+section.directory-section a {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 0.85rem;
+	color: navy;
+	letter-spacing: 1.1pt;
+}
+
+section.directory-section img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+section.directory-section {
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px 0px #000000;
+}
+
