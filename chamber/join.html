@@ -52,7 +52,7 @@
                     <fieldset style="background-color: aliceblue;">
                         <legend><h2 style="margin-top: 0;">Establishment Info</h2></legend>
                         <div></div>
-                        <label class="top">Business/Organization Name: <input type="text" name="oname" id="oname" required></label>
+                        <label class="top">Business/Organization Name: <input type="text" name="oname" id="oname" pattern="[a-zA-Z\- ]{7,}" required></label>
                         <div>Membership Level</div>
                         <label class="sbs"><input type="radio" name="membership" value="np" onclick="np()"> NP Membership</label>
                         <label class="sbs"><input type="radio" name="membership" value="bronze" onclick="bronze()"> Bronze Membership</label>
