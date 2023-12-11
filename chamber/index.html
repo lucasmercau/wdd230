@@ -31,33 +31,46 @@
         </ul>
     </nav>
     <div id="hero">    
-        <img id="hero-box" src="images/city_of_london.jpg" alt="City of London">
+        <img id="hero-box" src="images/optimizer_city_of_london.webp" alt="City of London">
         <div class="button-box">
-                <a href="" class="join">Join The Chamber</a>
+                <a href="join.html#form-div" class="join">Join The Chamber</a>
         </div>    
     </div>
     <main>
+        <div id="banner">
+            <span id="close">❌</span>
+            <p>Attend the London Chamber of Commerce - Meet and Greet - on Wednesday at 7:00 p.m.</p>
+        </div>
         <div class="section-grid">
             <section class="card">
                 <h3>Events</h3>
-                <h4>Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod lacus urna, auctor iaculis ante semper vitae. Cras ut vehicula dui. Donec ullamcorper lectus id augue varius volutpat. Cras cursus quam vitae orci ultricies mollis.</p>
-                <p><a>More info...</a></p>
+                <p><strong>Photo Tour: Framing - 12/21</strong></p>
+                <p>Join us on a captivating photographic journey through the heart of London, where we'll explore the art of framing in photography. On December 21st, immerse yourself in the vibrant cityscape as we guide you through iconic landmarks and hidden gems, teaching you the techniques to master the art of framing your shots.</p>
+                <p><strong>Christmas at Charlton House - 12/24</strong></p>
+                <p>Experience the magic of the season at the historic Charlton House in London this Christmas Eve! Join us for an enchanting celebration filled with festive cheer, twinkling lights, and the warmth of holiday spirit.</p>
+                <p><a href="discover.html">Discover more...</a></p>
             </section>
-            <section class="card">
+            
+            <section class="card weather-space">
                 <h3>Weather</h3>
-                <br>
-                <p>Degrees °C</p>
-                <p>Humidity: </p>
-                <p>Wind Chill: </p>
+                
+                    <div>
+                        <p style="margin-top: 0;margin-bottom: 0;"><img id="weather-icon" src="#" alt="weather png"></p>
+                        <p><span id="current-temp"></span><span>&nbsp;-&nbsp;</span><span id="caption"></span></p>
+                    </div>
+                    <div>
+                        <p class="forecast-tile"><strong>Temperature forecast:</strong></p>
+                        <div id="forecast"></div>
+                    </div>
+                </div>
             </section>
         </div>
-        <div class="adv-grid">
-            <div><h3>Spotlight</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod lacus urna, auctor iaculis ante semper vitae. Cras ut vehicula dui. Donec ullamcorper lectus id augue varius volutpat. Cras cursus quam vitae orci ultricies mollis. Maecenas dictum felis ac sapien egestas sollicitudin. Integer porttitor rutrum arcu, eget posuere dolor gravida nec.</p></div>
-            <div><h3>Spotlight</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod lacus urna, auctor iaculis ante semper vitae. Cras ut vehicula dui. Donec ullamcorper lectus id augue varius volutpat. Cras cursus quam vitae orci ultricies mollis. Maecenas dictum felis ac sapien egestas sollicitudin. Integer porttitor rutrum arcu, eget posuere dolor gravida nec.</p></div>
-            <div><h3>Spotlight</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam euismod lacus urna, auctor iaculis ante semper vitae. Cras ut vehicula dui. Donec ullamcorper lectus id augue varius volutpat. Cras cursus quam vitae orci ultricies mollis. Maecenas dictum felis ac sapien egestas sollicitudin. Integer porttitor rutrum arcu, eget posuere dolor gravida nec.</p></div>
+        <div class="menu-gl index">
+            <h2 id="directory-title">Spotlights</h2>
         </div>
-        
+        <article class="grid">
+            <h2 id="show-h2">Articule Section</h2>
+        </article>
     </main>
     <footer>
         <div class="social">
@@ -77,5 +90,8 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/banner.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/membersLinksIndex.js"></script>
 </body>
 </html>

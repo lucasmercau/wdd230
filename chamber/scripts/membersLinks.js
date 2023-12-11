@@ -5,7 +5,6 @@ const article = document.querySelector("article");
 async function getMembers() {
     const response = await fetch(linksURL);
     const data = await response.json();
-    console.log(data);
     displayMembers(data.members);
 }
 
